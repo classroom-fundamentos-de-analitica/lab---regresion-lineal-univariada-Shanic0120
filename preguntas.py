@@ -136,7 +136,7 @@ def pregunta_04():
     linearRegression = LinearRegression()
 
     # Entrene el clasificador usando X_train y y_train
-    linearRegression.fit(X_fertility, y_life)
+    linearRegression.fit(X_train, y_train)
 
     # Pronostique y_test usando X_test
     y_pred = linearRegression.predict(X_test)
